@@ -2,6 +2,8 @@ package tn.esprit.spring.services;
 
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,26 +16,27 @@ public class UserServiceImpl implements IUserService {
 	@Autowired
 	UserRepository userRepository;
 
-	// TODO Logger à ajouter  
+	private static final Logger l = LogManager.getLogger(UserServiceImpl.class);
+	
+     // TODO Logger à ajouter 
 	
 	@Override
 	public List<User> retrieveAllUsers() { 
 		List<User> users = null; 
 		try {
-	
-			// TODO Log à ajouter en début de la méthode 
+			l.info("In retrieveAllUsers() : ");
 			users = (List<User>) userRepository.findAll();  
 			for (User user : users) {
-				// TODO Log à ajouter pour affiher chaque user dans les logs   
+				l.debug("user +++ : ", user);
 			} 
-			// TODO Log à ajouter à la fin de la méthode 
+			l.info("Out of retrieveAllUsers() : ");
+
 		}catch (Exception e) {
-			// TODO Log à ajouter pour gérer les erreurs 
+			l.error("Error in retrieveAllUsers() : ", e);
 		}
 
 		return users;
 	}
-
 
 	@Override
 	public User addUser(User u) {
