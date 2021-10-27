@@ -28,7 +28,7 @@ class UserServiceImplTest {
 	@Order(1)
 	public void testRetrieveAllUsers() {
 		List<User> listUsers = us.retrieveAllUsers();
-	//	Assertions.assertEquals(0,listUsers.size());
+		Assertions.assertEquals(21,listUsers.size());
 	}
 	
 	
