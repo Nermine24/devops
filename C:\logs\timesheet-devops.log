@@ -10460,3 +10460,130 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 2021-11-13 17:54:46.660  INFO 19687 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@423791
 2021-11-13 17:54:46.660  INFO 19687 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@3aac31b7
 2021-11-13 17:54:46.660  INFO 19687 --- [main] t.e.s.s.D.DepartementServiceImpl         : Out of method Retrieve departements
+2021-11-13 19:05:13.356  INFO 22782 --- [main] s.TimesheetDevopsProjectApplicationTests : Starting TimesheetDevopsProjectApplicationTests using Java 16.0.2 on Macbook with PID 22782 (started by macbook in /Users/macbook/Downloads/timesheet-devopsProject)
+2021-11-13 19:05:13.359  INFO 22782 --- [main] s.TimesheetDevopsProjectApplicationTests : No active profile set, falling back to default profiles: default
+2021-11-13 19:05:14.449  INFO 22782 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-13 19:05:14.490  INFO 22782 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-13 19:05:14.595  INFO 22782 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-13 19:05:15.069  INFO 22782 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-13 19:05:15.624  INFO 22782 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-13 19:05:16.022  WARN 22782 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-13 19:05:16.462  INFO 22782 --- [main] s.TimesheetDevopsProjectApplicationTests : Started TimesheetDevopsProjectApplicationTests in 3.354 seconds (JVM running for 4.29)
+2021-11-13 19:05:16.631  INFO 22782 --- [main] t.e.spring.services.UserServiceImplTest  : Starting UserServiceImplTest using Java 16.0.2 on Macbook with PID 22782 (started by macbook in /Users/macbook/Downloads/timesheet-devopsProject)
+2021-11-13 19:05:16.632  INFO 22782 --- [main] t.e.spring.services.UserServiceImplTest  : No active profile set, falling back to default profiles: default
+2021-11-13 19:05:16.837  INFO 22782 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-13 19:05:16.857  INFO 22782 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-13 19:05:16.940  INFO 22782 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-13 19:05:17.073  WARN 22782 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-13 19:05:17.279  INFO 22782 --- [main] t.e.spring.services.UserServiceImplTest  : Started UserServiceImplTest in 0.672 seconds (JVM running for 5.107)
+2021-11-13 19:05:17.284  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : In method Add User
+2021-11-13 19:05:17.335  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur Ajoute
+2021-11-13 19:05:17.340  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : In Method retrieve all Users : 
+2021-11-13 19:05:17.436  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=1, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-13 19:05:17.436  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=2, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-13 19:05:17.436  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=3, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-11, role=INGENIEUR] : trouve:
+2021-11-13 19:05:17.437  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=4, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-11, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-13 19:05:17.437  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=5, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-11, role=TECHNICIEN] : trouve:
+2021-11-13 19:05:17.437  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=6, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-11, role=INGENIEUR] : trouve:
+2021-11-13 19:05:17.437  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=7, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-13 19:05:17.437  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=8, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-13 19:05:17.438  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=9, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-13 19:05:17.438  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=10, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-13 19:05:17.438  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=11, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-13 19:05:17.438  INFO 22782 --- [main] t.e.spring.services.UserServiceImpl      : Out of Method retrieve all users with success
+2021-11-13 19:05:17.448  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Into Method Add Department! 
+2021-11-13 19:05:17.457  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Department added! 
+2021-11-13 19:05:17.460  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Into Method Update Department! 
+2021-11-13 19:05:17.464  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Department Updated! 
+2021-11-13 19:05:17.468  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Searching department ...
+2021-11-13 19:05:17.487  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Department tn.esprit.spring.entities.Departement@5b7d5eca found
+2021-11-13 19:05:17.492  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : In method Retrrieve Departements!
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Connexion a la base de donnée effectuée! 
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@51a73873
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@342a5b57
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@5e781b4f
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@1b89debc
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@7305191e
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@159314ca
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@bafc754
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@5e8684a3
+2021-11-13 19:05:17.525  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@590ab84
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@8a8cab8
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@7d48299e
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@17810908
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@65c66fc4
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@7a90f33d
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@7c7b27c
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@2bd8c8f1
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@7db63a01
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@423791
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@3aac31b7
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@57def953
+2021-11-13 19:05:17.526  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@1bf4a79b
+2021-11-13 19:05:17.527  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@a1be5cb
+2021-11-13 19:05:17.527  INFO 22782 --- [main] t.e.s.s.D.DepartementServiceImpl         : Out of method Retrieve departements
+2021-11-13 19:05:36.202  INFO 22826 --- [main] s.TimesheetDevopsProjectApplicationTests : Starting TimesheetDevopsProjectApplicationTests using Java 11.0.10 on Macbook with PID 22826 (started by macbook in /Users/macbook/Downloads/timesheet-devopsProject)
+2021-11-13 19:05:36.205  INFO 22826 --- [main] s.TimesheetDevopsProjectApplicationTests : No active profile set, falling back to default profiles: default
+2021-11-13 19:05:37.343  INFO 22826 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-13 19:05:37.388  INFO 22826 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-13 19:05:37.510  INFO 22826 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-13 19:05:38.144  INFO 22826 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-13 19:05:38.807  INFO 22826 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-13 19:05:39.241  WARN 22826 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-13 19:05:39.686  INFO 22826 --- [main] s.TimesheetDevopsProjectApplicationTests : Started TimesheetDevopsProjectApplicationTests in 3.827 seconds (JVM running for 4.846)
+2021-11-13 19:05:39.824  INFO 22826 --- [main] t.e.spring.services.UserServiceImplTest  : Starting UserServiceImplTest using Java 11.0.10 on Macbook with PID 22826 (started by macbook in /Users/macbook/Downloads/timesheet-devopsProject)
+2021-11-13 19:05:39.825  INFO 22826 --- [main] t.e.spring.services.UserServiceImplTest  : No active profile set, falling back to default profiles: default
+2021-11-13 19:05:40.083  INFO 22826 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-13 19:05:40.117  INFO 22826 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-13 19:05:40.194  INFO 22826 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-13 19:05:40.327  WARN 22826 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-13 19:05:40.523  INFO 22826 --- [main] t.e.spring.services.UserServiceImplTest  : Started UserServiceImplTest in 0.719 seconds (JVM running for 5.683)
+2021-11-13 19:05:40.528  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : In method Add User
+2021-11-13 19:05:40.587  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur Ajoute
+2021-11-13 19:05:40.594  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : In Method retrieve all Users : 
+2021-11-13 19:05:40.713  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=1, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-13 19:05:40.713  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=2, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-13 19:05:40.713  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=3, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-11, role=INGENIEUR] : trouve:
+2021-11-13 19:05:40.713  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=4, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-11, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-13 19:05:40.714  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=5, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-11, role=TECHNICIEN] : trouve:
+2021-11-13 19:05:40.714  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=6, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-11, role=INGENIEUR] : trouve:
+2021-11-13 19:05:40.714  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=7, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-13 19:05:40.714  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=8, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-13 19:05:40.714  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=9, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-13 19:05:40.714  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=10, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-13 19:05:40.714  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=11, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-13 19:05:40.714  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Utilisateur User [id=12, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-13 19:05:40.715  INFO 22826 --- [main] t.e.spring.services.UserServiceImpl      : Out of Method retrieve all users with success
+2021-11-13 19:05:40.723  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Into Method Add Department! 
+2021-11-13 19:05:40.731  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Department added! 
+2021-11-13 19:05:40.735  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Into Method Update Department! 
+2021-11-13 19:05:40.739  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Department Updated! 
+2021-11-13 19:05:40.745  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Searching department ...
+2021-11-13 19:05:40.764  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Department tn.esprit.spring.entities.Departement@4b8ac512 found
+2021-11-13 19:05:40.768  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : In method Retrrieve Departements!
+2021-11-13 19:05:40.808  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Connexion a la base de donnée effectuée! 
+2021-11-13 19:05:40.808  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@1c0a4f87
+2021-11-13 19:05:40.808  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@5f5076f9
+2021-11-13 19:05:40.808  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@19439ec4
+2021-11-13 19:05:40.808  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@6f53f5a4
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@21ebf9be
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@7d50b4c4
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@7860a014
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@86e8469
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@76b6bad3
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@e38d655
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@7325b786
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@f943847
+2021-11-13 19:05:40.809  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@5ab29866
+2021-11-13 19:05:40.810  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@74cad577
+2021-11-13 19:05:40.810  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@350ede1
+2021-11-13 19:05:40.810  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@2bbaf1bc
+2021-11-13 19:05:40.810  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@65852d05
+2021-11-13 19:05:40.810  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@47462daf
+2021-11-13 19:05:40.810  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@43fdef43
+2021-11-13 19:05:40.811  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@3f36c191
+2021-11-13 19:05:40.811  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@73973e77
+2021-11-13 19:05:40.811  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@54a5eff
+2021-11-13 19:05:40.811  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@29612ee2
+2021-11-13 19:05:40.811  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Departement tn.esprit.spring.entities.Departement@20524816
+2021-11-13 19:05:40.811  INFO 22826 --- [main] t.e.s.s.D.DepartementServiceImpl         : Out of method Retrieve departements
