@@ -42,7 +42,7 @@ class UserServiceImplTest {
 	@Order(1)
 	public void addUserTest(){
 
-		User u =  new User("Mourad","Tlili",new Date(), generateRandom());
+		User u =  new User("Nermine","Belarbi",new Date(), generateRandom());
 		Assertions.assertNotNull(us.addUser(u));
 
 	}
@@ -55,21 +55,7 @@ class UserServiceImplTest {
 		Assertions.assertTrue(listUsers.size()>=1);
 	}
 	
-	/*@Test
-	@Order(3)
-	public void testRetrieveUser(){
-		//User user = us.retrieveUser("2");
-		Assertions.assertEquals(10,us.retrieveUser("10").getId());
-	}*/
-	/*
-	@Test
-	@Order(4)
-	public void testupdateUser(){
-		User expected = new User(10L,"Mourad", "Tlili" ,  new Date(), Role.ADMINISTRATEUR);
-		User user = us.updateUser(expected);
-		Assertions.assertEquals(expected,user);
-	}
-	*/
+
 	
 	
 	
